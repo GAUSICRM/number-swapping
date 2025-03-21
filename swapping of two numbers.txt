@@ -1,0 +1,9 @@
+a=int(input("Enter value for a:"))
+b=int(input("Enter value for b:"))
+print("Values berfore swapping:")
+print("a=",a)
+print("b=",b)
+a,b=b,a
+print("Values after swapping:")
+print("a=",a)
+print("b=",b)
